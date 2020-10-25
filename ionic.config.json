@@ -1,0 +1,7 @@
+{
+  "name": "ionic-managment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
