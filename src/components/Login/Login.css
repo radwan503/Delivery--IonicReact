@@ -1,0 +1,61 @@
+.login-header {
+    background: var(--theme-color);
+}
+
+.login-header {
+    position: relative;
+    background: var(--theme-color);
+    border-radius: 0em;
+}
+
+.login-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: var(--theme-color);
+    border-bottom: 0;
+    margin-left: -15px;
+    margin-bottom: -15px;
+
+}
+
+.logo-img {
+    display: block;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #fff;
+
+}
+
+.forget-password {
+    color: #000;
+    font-size: 13px;
+}
+
+.ion-button-class {
+    margin-top: 30px;
+}
+
+.login-form {
+    margin-top: 50px;
+}
+
+.login-form::after {
+    content: "";
+    bottom: 0px;
+    right: -80px;
+    position: absolute;
+    background-color: #eee;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+
+}
