@@ -76,7 +76,7 @@ export default class Login extends Component {
                     size="large"
                     expand="block"
                   >
-                    Sign in
+                    Click Here
                   </IonButton>
                 </IonCol>
               </IonRow>
