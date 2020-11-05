@@ -12,7 +12,6 @@ import {
   IonHeader,
   IonIcon,
   IonInput,
-  IonItemDivider,
   IonPage,
 } from "@ionic/react";
 import "../Login/Login.css";
@@ -69,7 +68,8 @@ export default class Login extends Component {
                     </IonLabel>
                   </div>
                   <IonButton
-                    color="primary"
+                    href="/home"
+                    color=""
                     className="ion-button-class"
                     shape="round"
                     fill="solid"

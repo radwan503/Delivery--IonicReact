@@ -1,4 +1,15 @@
-.container {
-    background-color: var(--ion-color-purple);
-    height: 100vh;
+.transport-status.primary {
+    --background: #4285f4!important;
+}
+
+.transport-status.info {
+    --background: #29b6f6!important
+}
+
+.transport-status.warning {
+    --background: #fb3!important;
+}
+
+.transport-status.danger {
+    --background: #ff5252!important;
 }

@@ -12,7 +12,6 @@ import {
   IonHeader,
   IonIcon,
   IonInput,
-  IonItemDivider,
   IonPage,
 } from "@ionic/react";
 import "../../components/Registration/Registration.css";

@@ -1,10 +1,10 @@
 .login-header {
-    background: var(--theme-color);
+    background: linear-gradient(40deg, #ff6ec4, #7873f5) !important;
 }
 
 .login-header {
     position: relative;
-    background: var(--theme-color);
+    background: linear-gradient(40deg, #ff6ec4, #7873f5) !important;
     border-radius: 0em;
 }
 
@@ -16,11 +16,10 @@
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-top-color: var(--theme-color);
+    border-top-color: #ff6ec4;
     border-bottom: 0;
     margin-left: -15px;
     margin-bottom: -15px;
-
 }
 
 .logo-img {
@@ -32,7 +31,6 @@
     border-radius: 50%;
     padding: 10px;
     background-color: #fff;
-
 }
 
 .forget-password {
@@ -42,6 +40,8 @@
 
 .ion-button-class {
     margin-top: 30px;
+    background: linear-gradient(0deg, rgba(109, 71, 217, .92), rgba(82, 62, 232, .92)) !important;
+    border-radius: 30px;
 }
 
 .login-form {
@@ -57,5 +57,4 @@
     height: 120px;
     width: 120px;
     border-radius: 100%;
-
 }
